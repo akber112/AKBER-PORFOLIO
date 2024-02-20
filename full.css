@@ -591,6 +591,10 @@ footer {
 body{
   background-color: rgb(197, 228, 236);
 }
+.bod{
+  background-color: rgb(197, 228, 236);
+
+}
 .fade-down {
   height: 10%;
 }
