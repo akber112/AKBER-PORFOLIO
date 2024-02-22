@@ -92,11 +92,17 @@
 }
 
 .welcome {
-  font-size: 55px;
+  font-size: 70px;
   /* margin-top: 15%; */
   color: white;
   transition: 1s;
   z-index: 100;
+  font-weight: 600;
+}
+.welcome:hover{
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  cursor: pointer;
 }
 
 .p1 {
@@ -365,7 +371,7 @@ input.error {
 }
 
 .div8 {
-  margin-top: 38%;
+   margin-top: 5%;
 }
 
 /* .div9{
@@ -444,16 +450,30 @@ footer {
   height: 70%;
   background-size: cover;
   filter: brightness(35%);
-  z-index: -1;
+  z-index: -100;
+}
+
+.background{
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
 }
 
 .contact {
-  margin-top: 25%;
+  margin-top: 20%;
   padding: 40px;
 }
 
 .contact1 {
-  margin-top: -7%;
+  margin-top: -55%;
+  font-size: 80px;
+  z-index: 100;
+  color: white;
+}
+.contact1:hover{
+  -webkit-text-stroke: 2px white;
+  color: transparent;
 }
 
  .about{
@@ -512,11 +532,17 @@ footer {
 }
 
 .videobackground {
-  width: 100%;
+  /* width: 100%;
   filter: brightness(70%);
   min-width: 100%;
   min-height: 100%;
+  position: absolute; */
   position: absolute;
+  filter: brightness(70%);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .videoback {
@@ -738,5 +764,34 @@ marquee {
   cursor: pointer;
 }
 .zoom{
-  padding: 21px;
+  padding: 5px; 
+  margin-top: 10%;
+}
+ .about2{
+  /* margin-top: -20%; */
+}
+.about1{
+  margin-top: 15%;
+  font-size: 80px;
+  color: white;
+}
+.about1:hover{
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+}
+.contact3{
+  margin-top: 0%;
+}
+.gallery{
+  margin-top: -70%;
+  font-size: 80px;
+  color: white;
+}
+.gallery:hover{
+  -webkit-text-stroke: 2px white;
+  color: transparent;
+  cursor: pointer;
+}
+.gallery2{
+  margin-top: 30%;
 }
