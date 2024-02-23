@@ -505,3 +505,56 @@ textarea.input100 {
   background-color: rgb(224, 248, 253);
 
 }
+.logoimg{
+    height: 90px;
+}
+.nav_link{
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.nav_link:hover,
+.active{
+    border-bottom: 3px solid white;
+    padding: 5px;
+    transition: 0.3s;
+    color: white;
+    font-weight: bolder;
+}
+#btn1{
+    font-size: 14px;
+    height: 35px;
+}
+
+.navbar-nav{
+    font-weight: 550;
+    gap: 40px;
+}
+.header1{
+    background-image: url(pexels-pixabay-237272.jpg);
+    height: 70vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    box-shadow: 0px 17px 19px -3px rgba(0,0,0,0.56);
+-webkit-box-shadow: 0px 17px 19px -3px rgba(0,0,0,0.56);
+-moz-box-shadow: 0px 17px 19px -3px rgba(0,0,0,0.56);
+}
+/* content section start */
+.content1{
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}
+.content1 h1{
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 50px;
+
+}
+.content1 h1:hover{
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+    
+  }
