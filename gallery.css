@@ -1,3 +1,5 @@
+/* NAV SECTION START */
+
 .logoimg{
     height: 90px;
 }
@@ -49,4 +51,218 @@
     -webkit-text-stroke: 2px white;
     color: transparent;
     
+  }
+  /* NAVBAR SECTION END */
+
+  /* IMAGE SECTION START */
+  .cont {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(4, 20.5vw);
+    grid-template-rows: repeat(6, 18vw);
+    margin-top: 15vh;
+    column-gap: 15px;
+    row-gap: 18px;
+  
+  }
+  .cont img {
+    width: 100%;
+    height: 100%;
+  }
+  .all:hover .layer {
+    height: 230px;
+    opacity: 1;
+  }
+  
+  .all1:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  
+  .all2:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  
+  .all3:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  
+  .all4:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  
+  .all5:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  .all6:hover .layer {
+    height: 230px;
+  
+  }.all7:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  .all:hover .layer {
+    height: 230px;
+    opacity: 1;
+  
+  }
+  .layer {
+    width: 250px;
+    height: 0px;
+    background-color: rgba(3, 3, 3, 0.267);
+    position: absolute;
+    transition: 0.5s;
+    top: 0;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .all:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+  .all {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all1:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all1 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all2:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all2 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all3:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all3 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all4:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all4 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+ 
+  .all5:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all5 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+ 
+  .all6:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all6 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all7:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all7 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+ 
+  .all8:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  
+  .all8 {
+    width: 250px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  
+  .all9:hover img {
+    transform: scale(1.1);
+    transition: 0.7s;
+    box-shadow: inset 300px 0 0 0 white;
+    cursor: pointer;
+  }
+  .h2{
+    color: white;
   }

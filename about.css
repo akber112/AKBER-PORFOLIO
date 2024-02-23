@@ -1,3 +1,5 @@
+/* NAVBAR SECTION START */
+
 .logoimg{
     height: 90px;
 }
@@ -51,6 +53,14 @@
     color: transparent;
     
   }
-  .zoomb{
+  /* NAVBAR SECTION END */
+
+  /* CARD SECTION START */
+  .zoom{
+    padding: 0px 20px; 
+    margin-top: 2%;
+  }
+.zoomb{
     background-color: rgb(162, 207, 248);
   }
+    /* CARD SECTION END */
