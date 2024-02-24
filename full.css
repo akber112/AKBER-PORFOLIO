@@ -73,7 +73,7 @@
 .content1 {
   color: white;
   text-align: center;
-  margin-top: 10%;
+  /* margin-top: 10%; */
 }
 
 .content1 h1 {
@@ -429,7 +429,7 @@ marquee {
   animation-duration: 0.1s;
   
 }
-span{
+.spanh1{
   color: rgb(0, 255, 247);
   font-size:80px;
 }
